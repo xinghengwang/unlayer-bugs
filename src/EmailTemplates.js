@@ -16,7 +16,7 @@ function AddDynamicMergeTagModal(props) {
           onClick={() => {
             const newTags = {
               NEW_TAG: {
-                label: "NEW_TAG",
+                name: "NEW_TAG",
                 value: "{{NEW_TAG}}"
               }
             };
