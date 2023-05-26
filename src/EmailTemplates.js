@@ -66,9 +66,6 @@ export default class EmailTemplates extends Component {
   }
 
   handleInitEditor() {
-    // must be delayed a few seconds
-    // for this.editorRef to be ref hooked up
-
     const { initialMergeTags } = this.props;
     const { dynamicFields } = this.state;
     if (this.editorRef.current.editor) {
